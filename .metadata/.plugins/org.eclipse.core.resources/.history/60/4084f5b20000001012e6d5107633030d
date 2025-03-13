@@ -1,0 +1,9 @@
+package negocio;
+
+public class Cilindro implements Solido {
+	//Propriedade da classe
+	private double raio = 0;
+	private double altura = 0;
+	
+	
+}

@@ -1,0 +1,11 @@
+package apresentacao;
+
+import java.io.BufferedReader;
+
+public class VisaoGeometria {
+	public static void main (String[] args) {
+		//Declaração de variáveis
+		BufferedReader leitor = neew BufferedReader(new InputStreamReader(System.in));
+	}
+
+}

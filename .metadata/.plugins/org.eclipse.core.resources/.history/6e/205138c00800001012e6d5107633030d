@@ -1,0 +1,13 @@
+package negocio;
+
+public class Caipirinha extends Drink implements Mixer {
+	public void misturar() {
+		super.adicionar(new Igrediente("Cachaça", 100, "ml"));
+		super.adicionar(new Igrediente("Limão",3,"unidades"));
+		super.adicionar(new Igrediente("Açucar", 5, "g"));
+		super.adicionar(new Igrediente("Gelo", 8, "Pedras"));
+	
+
+	}
+
+}

@@ -1,0 +1,74 @@
+# 13/03/2025 - Polimorfismo
+
+## **O polimorfismo em Java**
+
+**é a capacidade de tratar objetos de classes diferentes de forma uniforme**
+
+. É um dos pilares da programação orientada a objetos (POO) em Java.
+
+O polimorfismo é alcançado por meio de: Herança, Interfaces, Classes abstratas, Métodos virtuais.
+
+**Como funciona o polimorfismo em Java?**
+
+- Quando um método é sobrescrito, todas as chamadas a ele são substituídas, inclusive as definidas na classe pai
+- É possível chamar métodos em um objeto sem saber exatamente qual classe o objeto pertence
+
+O polimorfismo permite que objetos de diferentes classes que implementam a mesma interface sejam tratados de maneira uniforme
+
+- O polimorfismo permite que objetos de diferentes classes que implementam a mesma interface sejam tratados de maneira uniforme
+
+O polimorfismo facilita a reutilização de código e promove a extensibilidade do software
+
+- O polimorfismo facilita a reutilização de código e promove a extensibilidade do software
+
+**Exemplos de polimorfismo em Java:**
+
+Em um software para um hospital, as classes Médico, Enfermeira e Paciente podem herdar os atributos em comum da super classe Pessoa
+
+- Em um software para um hospital, as classes Médico, Enfermeira e Paciente podem herdar os atributos em comum da super classe Pessoa
+
+A classe Estagiario pode sobrescrever o método getSalario() herdado da classe Funcionario
+
+- A classe Estagiario pode sobrescrever o método getSalario() herdado da classe Funcionario
+
+## **Não existe herança multipla em java.**
+
+## **Mas existe herança multipla em c**
+
+**Classes Abstratas:**
+
+- **Propósito:**
+    - Fornecem um modelo base para subclasses relacionadas.
+    - Podem conter métodos abstratos (sem implementação) e métodos concretos (com implementação).
+    - Podem ter atributos (variáveis de instância).
+- **Herança:**
+    - Uma classe pode herdar apenas de uma única classe abstrata.
+    - Representam uma relação "é um". Ex: "Cachorro é um Animal".
+- **Quando usar:**
+    - Quando você tem um conjunto de classes que compartilham um comportamento comum e alguns detalhes de implementação.
+    - Quando você deseja fornecer uma implementação padrão para alguns métodos.
+
+**Interfaces:**
+
+implementação multipla e mais rápida.
+
+- **Propósito:**
+    - Definem um contrato que as classes devem cumprir.
+    - Podem conter apenas métodos abstratos (até Java 7), métodos padrão (a partir do Java 8) e constantes.
+    - Não podem ter atributos (variáveis de instância).
+- **Herança:**
+    - Uma classe pode implementar múltiplas interfaces.
+    - Representam uma relação "pode fazer". Ex: "Cachorro pode fazer Som".
+- **Quando usar:**
+    - Quando você deseja definir um conjunto de comportamentos que classes não relacionadas podem implementar.
+    - Para alcançar polimorfismo, permitindo que objetos de diferentes classes sejam tratados de forma uniforme.
+
+**A Questão da Herança Múltipla:**
+
+- Java não suporta herança múltipla de classes para evitar o problema do "diamante", onde uma classe poderia herdar métodos conflitantes de duas superclasses.
+- Interfaces resolvem esse problema, pois definem apenas contratos, não implementações. Uma classe pode implementar várias interfaces sem conflitos de implementação.
+
+**Em resumo:**
+
+- Classes abstratas focam em "o que é", fornecendo uma base para herança.
+- Interfaces focam em "o que pode fazer", definindo contratos para comportamentos.

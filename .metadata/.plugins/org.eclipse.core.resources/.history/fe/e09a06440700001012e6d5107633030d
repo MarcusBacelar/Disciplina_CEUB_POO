@@ -1,0 +1,11 @@
+package negocio;
+
+public abstract class Drink {
+	//Propriedades da classe
+	private Ingrediente[] colecao = new Ingrediente[10];
+	private int qtdIngrediente = 0;
+	
+	//Métodos da classe
+	colecao[qtdIngrediente] = objIngredientes;
+	qydIngredientes++;
+}

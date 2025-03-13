@@ -1,0 +1,31 @@
+package apresentacao;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import negocio.Cubo;
+import negocio.Solido;
+
+public class VisaoGeometria {
+	public static void main (String[] args) {
+		//Declaração de variáveis
+		BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
+		Solido objSolido = null;
+		int opcao=0;
+		
+		//Entrada de dadiis 
+		try {
+			System.out.print("Digite <1> para cubo ou <2> para cilindro: ");
+			opcao= Integer.parseInt(leitor.readLine()); 
+		if(opcao == 1) {
+			objSolido = new Cubo();
+		}else {
+			objSolido = new Cilindro();
+			
+		}
+		}catch(Exception erro) {
+			System.out.print(erro);
+		}
+	}
+
+}

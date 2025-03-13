@@ -1,0 +1,8 @@
+package negocio;
+
+public class Cubo implements Solido {
+	// Propriedade da classe
+	private double aresta = 0;
+	
+	
+}

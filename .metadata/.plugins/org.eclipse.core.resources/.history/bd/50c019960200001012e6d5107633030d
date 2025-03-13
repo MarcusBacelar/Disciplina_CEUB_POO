@@ -1,0 +1,21 @@
+package apresentacao;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import negocio.Solido;
+
+public class VisaoGeometria {
+	public static void main (String[] args) {
+		//Declaração de variáveis
+		BufferedReader leitor = neew BufferedReader(new InputStreamReader(System.in));
+		Solido objSolido = null;
+		int opcao=0;
+		
+		//Entrada de dadiis 
+		try {
+			
+		}catch
+	}
+
+}

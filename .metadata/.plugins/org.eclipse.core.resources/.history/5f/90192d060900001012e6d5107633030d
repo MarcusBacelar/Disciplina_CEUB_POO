@@ -1,0 +1,8 @@
+package negocio;
+
+public class DryMartini extends Drink implements Mixer {
+	public void misturar{
+		
+	}
+
+}
