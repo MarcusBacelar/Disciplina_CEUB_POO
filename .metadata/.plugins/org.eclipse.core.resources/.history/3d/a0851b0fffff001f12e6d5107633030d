@@ -1,6 +1,0 @@
-package negocio;
-
-public class Cubo {
-	// Propriedade da classe
-	private double aresta = 0;
-}
